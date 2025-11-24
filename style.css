@@ -1,0 +1,96 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    position: relative;
+    margin-bottom: 10px;
+    height: 700px;
+}
+
+header img, 
+header h1 {
+    position: absolute;
+
+}
+
+header img{
+   z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+
+header h1{
+    z-index: 2;
+    left: 25%;
+    width: 50%;
+    margin: 85px auto;
+    background-color: rgb(161, 191, 91);
+    text-align: center;
+    padding: 5px;
+    font-size: 42px;
+    font-family: "Story Script";
+    color: lightgoldenrodyellow;
+}
+
+nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width:100%;
+    background-color: lightyellow;
+    z-index: 3;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Segoe UI';
+}
+
+nav a {
+    margin: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color:rgb(21, 134, 40);
+}
+
+.purpose{
+    margin: 40px auto;
+    width:65%;
+}
+
+.purpose h2{
+    text-align: center;
+   font-family: "Oswald";
+   font-size:30px;
+   margin-bottom: 0px;
+}
+
+.purpose p {
+    font-family: "Rancho";
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+footer{
+   background-color: rgba(247, 234, 59, 0.815);
+    padding: 80px;
+    text-align: center;
+    color:rgb(101, 146, 78);
+}
+
+.back-to-top{
+    background-color: lightpink;
+    width: 100px;
+    margin: 0px auto;
+    padding: 12px;
+    font-family: 'Segoe UI';
+}
+
+.back-to-top{
+    color: rgb(161, 191, 91);
+    text-decoration: none;
+}
+footer p{
+    font-family:'Arial';
+    font-family: small;
+}
